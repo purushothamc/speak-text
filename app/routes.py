@@ -40,7 +40,7 @@ def call():
 	        params = {
         	'from': '1800111108', # Caller Id
 	        'to' : dialNumber1, # User Number to Call	
-        	'answer_url' : 'http://damp-bastion-2868.herokuapp.com/answer_url/',
+        	'answer_url' : 'http://afternoon-fortress-6063.herokuapp.com/answer_url/',
 	        'answer_method' : 'POST',
         	}
 	        response = p.make_call(params)
