@@ -3,7 +3,7 @@
 <h4>Call to multiple people<h4>
   <div>
     <form name="input" action="/call/" enctype=multipart/form-data method="POST">
-	    <input type="file" name="datafile" placeholder="Select CSV file"><br>
+	    <input type="file" name="datafile" placeholder="Select CSV file" style="width: 90px;" onchange="this.style.width = '100%';"><br>
 	    <input type="text" name="speaktext" placeholder="Enter Text" maxlength="256"><br>
 	    <input type="submit" value="Call" class="btn">
 	</form>

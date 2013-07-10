@@ -1193,6 +1193,12 @@ input[type="file"] {
   /* For IE7, add top margin to align select with labels */
 
   line-height: 30px;
+  position: relative;
+  text-align: right;
+  -moz-opacity:0 ;
+  filer:alpha(opacity: 0);
+  opacity: 0;
+  z-index: 2;
 }
 
 select {
