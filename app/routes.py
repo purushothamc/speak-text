@@ -54,7 +54,7 @@ def answer_url():
     r = plivo.Response()
     
     params = {'loop':1}
-    r.addWait(length=1)
+    r.addWait(length=2)
     r.addSpeak(textTobePlayed)
     
     response = make_response(r.to_xml())
