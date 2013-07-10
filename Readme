@@ -1,0 +1,11 @@
+lets_talk
+=========
+
+This App is built on Plivo API and Python<br/>
+
+1. What this APP does?
+   * It takes the Phone numbers in a csv file and text as Input and speak out the text to each number when call is answered.
+
+2. Which Plivo API is used?
+   * The app implements API for outbound call and Speak Element in Answer_url XML. 
+
